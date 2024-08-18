@@ -21,3 +21,5 @@ jobs:
             twig_lint
             xliff_lint
             yaml_lint
+        env:
+          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
